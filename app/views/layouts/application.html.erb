@@ -12,8 +12,9 @@
   <body>
     <%= render 'layouts/header' %>
       <main>
-        <%= render 'partial/search' %>
-        <p id="notice"><%= notice %></p>
+        <div class="container">
+          <p id="notice"><%= notice %></p>
+        </div>
         <%= yield %>
       </main>
     <%= render 'layouts/footer' %>
